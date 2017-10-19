@@ -23,7 +23,7 @@ function fish_prompt -d "Palenight fish prompt"
         set -l git_state (git_is_touched; and printf "++"; or git_ahead "||>" "<||" "<=>" "")
 
         printf " on "
-        print_color blue "$git_char $branch_name" (test -n $git_state; and printf " [$git_state]")
+        print_color blue "$git_char $branch_name $git_state" # (test -n $git_state; and printf " [$git_state]")
     end
 
     print_color red "\e[K\n❯ "
