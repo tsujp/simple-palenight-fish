@@ -1,7 +1,6 @@
 # Simple
-> simple fish theme 🐠
+> my personalized version of the excellent [fisherman/simple](https://github.com/fisherman/simple) 🐠
 
-This is my personalized version of the excellent [fisherman/simple](https://github.com/fisherman/simple)
 
 <!-- ![palenight] -->
 
