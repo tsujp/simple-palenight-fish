@@ -13,7 +13,4 @@ function fish_right_prompt
     else
         print_color brblack (date "+%a %H:%M")
     end
-
-    # new line
-    printf "\e[K\n"
 end
