@@ -3,10 +3,10 @@ function fish_prompt -d "Palenight fish prompt"
     set -l superuser_char "⚡️ "
 
     # root indicator
-    test (whoami) = root; and printf $superuser_char
+    # test (whoami) = root; and printf $superuser_char
 
     # last command status
-    test $last_command_status -ne 0; and printf $error_char
+    # test $last_command_status -ne 0; and printf $error_char
 
     # current user
     print_color red $USER
