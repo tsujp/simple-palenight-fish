@@ -3,10 +3,7 @@ function fish_prompt -d "Palenight fish prompt"
     set -l superuser_char "⚡️ "
 
     # root indicator
-    # test (whoami) = root; and printf $superuser_char
-
-    # last command status
-    # test $last_command_status -ne 0; and printf $error_char
+    test (whoami) = root; and printf $superuser_char
 
     # current user
     print_color red $USER
@@ -23,8 +20,13 @@ function fish_prompt -d "Palenight fish prompt"
         set -l git_state (git_is_touched; and printf "++"; or git_ahead "||>" "<||" "<=>" "")
 
         printf " on "
-        print_color blue "$git_char $branch_name $git_state" # (test -n $git_state; and printf " [$git_state]")
+        print_color blue "$git_char $branch_name $git_state" (test -n $git_state; and printf " [$git_state]")
     end
 
-    print_color red "\e[K\n❯ "
+     # last command status
+    if test $status -eq 0
+        print_color green "\e[K\n $error_char ❯ "
+    else
+        print_color red "\e[K\n $error_char ❯ "
+    end
 end
