@@ -20,12 +20,13 @@ function fish_prompt -d "Simple fish prompt"
         set -l branch_name (git_branch_name)
         set -l git_ahead_char (git_ahead $ahead_char $behind_char $diverged_char $uptodate_char)
 
-        # git status
+        # set git state
         set git_state $git_ahead_char
         if git_is_touched
             set git_state "++"
         end
 
+        # print git branch + status
         printf " on "
         print_color blue "$git_char $branch_name [ $git_state ]"
     end
