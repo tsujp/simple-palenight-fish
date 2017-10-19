@@ -12,7 +12,6 @@ function fish_prompt -d "Simple fish prompt"
 
     # git
     if git_is_repo
-        set -l git_char ""
         set -l ahead_char "||>"
         set -l behind_char "<||"
         set -l diverged_char "<=>"
@@ -28,14 +27,14 @@ function fish_prompt -d "Simple fish prompt"
 
         # print git branch + status
         printf " on "
-        print_color blue "$git_char $branch_name - $git_state"
+        print_color blue "$branch_name $git_state"
     end
 
     # new line
     printf "\e[K\n"
 
     # root indicator
-    test (whoami) = root; and printf $superuser_char
+    test (whoami) = root; and set -l command_char $superuser_char
 
     # last command status
     if test $prev_status -eq 0
