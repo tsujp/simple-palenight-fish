@@ -10,7 +10,7 @@ This is my personalized version of the excellent [fisherman/simple](https://gith
 With [fisherman]
 
 ```
-fisher eliasmeire/palenight
+fisher eliasmeire/fish-simple
 ```
 
 ## Terminal settings
