@@ -7,7 +7,7 @@ This is my personalized version of the excellent [fisherman/simple](https://gith
 
 ## Install
 
-With [fisherman]
+with [fisherman]
 
 ```
 fisher eliasmeire/fish-simple
