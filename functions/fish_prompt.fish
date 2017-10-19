@@ -28,7 +28,7 @@ function fish_prompt -d "Simple fish prompt"
 
         # print git branch + status
         printf " on "
-        print_color blue "$git_char $branch_name [ $git_state ]"
+        print_color blue "$git_char $branch_name - $git_state"
     end
 
     # new line
