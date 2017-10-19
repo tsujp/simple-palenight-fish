@@ -1,5 +1,5 @@
 function fish_prompt -d "Simple fish prompt"
-    set -l superuser_char "⚡️ "
+    set -l superuser_char "⚡️  "
     set -l command_char "❯ "
     set -l prev_status $status
 
