@@ -1,5 +1,5 @@
 function fish_right_prompt
-    set -l status_color green
+    set -l status_color cyan
 
     if test $status -ne 0
         set status_color red
