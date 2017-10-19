@@ -1,7 +1,7 @@
 # fish-palenight
 > simple fish theme with Material Palenight colors 🐠
 
-![palenight]
+<!-- ![palenight] -->
 
 ## Install
 
