@@ -32,10 +32,8 @@ function fish_prompt -d "Palenight fish prompt"
 
      # last command status
     if test $status -eq 0
-        print_color cyan "\e[K\n $success_char ❯ "
+        print_color yellow "\e[K\n$success_char ❯ "
     else
         print_color red "\e[K\n$error_char ❯ "
     end
-
-    print_color purple $status
 end

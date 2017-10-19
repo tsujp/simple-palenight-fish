@@ -9,6 +9,6 @@ function fish_right_prompt
         set -l duration (printf $CMD_DURATION | humanize_duration)
         print_color $status_color $duration
     else
-        print_color brblack (date "+%a %d/%m %H:%M")
+        print_color brblack (date "+%a %H:%M")
     end
 end
