@@ -1,7 +1,7 @@
 # Simple
 > my personalized version of the excellent [fisherman/simple](https://github.com/fisherman/simple) 🐠
 
-<img src="https://user-images.githubusercontent.com/8850410/31786549-3744f83e-b509-11e7-865e-0fe5491e28b9.png" width="70%" />
+<img src="https://user-images.githubusercontent.com/8850410/31827099-3a306eee-b5b7-11e7-81bf-0e5c34a9e7de.png" width="70%" />
 
 ## Install
 
