@@ -11,7 +11,7 @@ function fish_prompt -d "Simple fish prompt"
 
     # current working directory
     printf " in "
-    print_color blue (prompt_pwd)
+    print_color yellow (prompt_pwd)
 
     # git
     if git_is_repo
@@ -31,7 +31,7 @@ function fish_prompt -d "Simple fish prompt"
 
         # print git branch + status
         printf " on "
-        print_color green "$branch_name $git_state"
+        print_color blue "$branch_name $git_state"
     end
 
     # new line
