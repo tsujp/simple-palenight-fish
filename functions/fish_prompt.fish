@@ -3,6 +3,9 @@ function fish_prompt -d "Simple fish prompt"
     set -l command_char "❯ "
     set -l prev_status $status
 
+    # new line
+    printf "\e[K\n"
+
     # current user
     print_color red $USER
 
