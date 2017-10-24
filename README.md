@@ -14,6 +14,6 @@ fisher eliasmeire/fish-simple
 ## Terminal settings
 
 - iTerm colors: [Material Palenight by JonathanSpeek](https://github.com/JonathanSpeek/palenight-iterm2)
-- font: [Fira Code by tonsky](https://github.com/tonsky/FiraCode)
+- Font: [Fira Code by tonsky](https://github.com/tonsky/FiraCode)
 
 [fisherman]: https://github.com/fisherman/fisherman
