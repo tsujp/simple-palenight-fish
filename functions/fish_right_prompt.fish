@@ -7,7 +7,7 @@ function fish_right_prompt
         set status_char "😡 "
     end
 
-    if test "$CMD_DURATION" -gt 50
+    if test "$CMD_DURATION" -gt 200
         set -l duration (printf $CMD_DURATION | humanize_duration)
         print_color $status_color "$status_char $duration"
     else
