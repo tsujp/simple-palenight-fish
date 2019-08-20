@@ -3,7 +3,7 @@
 My personalised fish configuration, forked from [eliasmeire/fish-simple](https://github.com/eliasmeire/fish-simple) as the original they forked from is no longer available.
 
 ![home](https://raw.githubusercontent.com/tsujp/simple-palenight-fish/assets/home.png)
-
+![expanded](https://raw.githubusercontent.com/tsujp/simple-palenight-fish/assets/in-repo-expanded.png)
 
 ## Install
 
