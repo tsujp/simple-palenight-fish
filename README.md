@@ -10,9 +10,30 @@ My personalised fish configuration, forked from [eliasmeire/fish-simple](https:/
 with [fisherman]
 
 ```
-fisher tsujp/simple-palenight-fish
+fisher add tsujp/simple-palenight-fish
 ```
 
+## Remove
+
+with [fisherman]
+
+```
+fisher rm tsujp/simple-palenight-fish
+```
+
+## Edit
+
+1. Clone, fork, or download the repo.
+```
+git clone https://github.com/tsujp/simple-palenight-fish.git
+```
+
+2. Edit files in the `functions/` folder.
+
+3. Use your local configuration by providing `fisherman` an absolute path to your project.
+```
+fisher add /path/to/simple-palenight-fish
+```
 
 ## Terminal settings
 
