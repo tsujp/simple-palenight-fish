@@ -29,8 +29,8 @@ function fish_prompt -d "Simple palenight fish"
     set -l command_char "❯ "
     set -l prev_status $status
 
-    # current user
-    print_color red $USER
+    # current directory
+    print_color red (basename $PWD)
     printf " "
 
     # last command status
